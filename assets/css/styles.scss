@@ -1,3 +1,9 @@
+:root{
+  --title-color: #101828;
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -33,7 +39,7 @@ nav{
     span{
       font-size: 16px;
       font-weight:  500;
-      color:  #667085;
+      color:  var(--text-color);
       cursor: pointer;
       
       & + span{
@@ -51,7 +57,7 @@ nav{
     cursor: pointer;
     button{
       cursor: pointer;
-      background-color: #8E2424;
+      background-color: var(--main-color);
       color: #FFF;
       font-size: 16px;
       font-weight: 500;
@@ -68,5 +74,35 @@ nav{
       }
     }
   }
-  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  span{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-top: 96px;
+  }
+
+  h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-top: 24px;
+  }
+
+  p{
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 30px;
+    margin: 36px auto 0;
+
+    text-align: center;
+    width: 791px;
+  }
 }

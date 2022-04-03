@@ -1,3 +1,9 @@
+:root {
+  --title-color: #101828;
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +47,7 @@ nav {
 .container .navigation span {
   font-size: 16px;
   font-weight: 500;
-  color: #667085;
+  color: var(--text-color);
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -62,7 +68,7 @@ nav {
 
 .container .buttons button {
   cursor: pointer;
-  background-color: #8E2424;
+  background-color: var(--main-color);
   color: #FFF;
   font-size: 16px;
   font-weight: 500;
@@ -77,5 +83,42 @@ nav {
 .container .buttons button:hover {
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main span {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin-top: 96px;
+}
+
+main h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-top: 24px;
+}
+
+main p {
+  font-size: 20px;
+  color: var(--text-color);
+  line-height: 30px;
+  margin: 36px auto 0;
+  text-align: center;
+  width: 791px;
 }
 /*# sourceMappingURL=styles.css.map */
