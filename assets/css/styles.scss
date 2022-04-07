@@ -168,3 +168,53 @@ main{
     max-width: 1280px;
   }
 }
+
+.job-vacancies-container{
+  width: 768px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+
+  div{
+    h2{
+      margin: 64px 0 32px;
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--title-color);
+    }
+
+    .job{
+      border: 1px solid #EAECF0;
+      border-radius: 16px;
+
+      & + .job{
+        margin-top: 24px;
+      }
+
+      .job-title{
+        font-size: 18px;
+        font-weight: 500;
+
+        line-height: 66px;
+        padding-left: 24px;
+      }
+
+      .job-info{
+        padding-left: 24px;
+        padding-bottom: 24px;
+        padding-top: 8px;
+
+        span{
+          font-size: 16px;
+          font-weight: 500;
+          color: #667085;
+
+          & + span{
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+
+
+}
