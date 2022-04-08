@@ -215,6 +215,50 @@ main{
       }
     }
   }
+}
 
+.depositions-container{
+  width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  border-radius: 16px;
 
+  background-color: rgba(196, 25, 25, 0.08);
+
+  text-align: center;
+  padding: 64px;
+
+  span{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--main-color);
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--title-color);
+
+    padding-top: 16px;
+  }
+
+  .avatar{
+    padding-top: 32px;
+  }
+
+  h3{
+    padding-top: 16px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-color);
+  }
+
+  p{
+    padding-top: 4px;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
 }

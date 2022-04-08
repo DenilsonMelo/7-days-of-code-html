@@ -231,4 +231,45 @@ main p {
 .job-vacancies-container div .job .job-info span + span {
   margin-left: 24px;
 }
+
+.depositions-container {
+  width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  border-radius: 16px;
+  background-color: rgba(196, 25, 25, 0.08);
+  text-align: center;
+  padding: 64px;
+}
+
+.depositions-container span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.depositions-container h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--title-color);
+  padding-top: 16px;
+}
+
+.depositions-container .avatar {
+  padding-top: 32px;
+}
+
+.depositions-container h3 {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+.depositions-container p {
+  padding-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color);
+}
 /*# sourceMappingURL=styles.css.map */
